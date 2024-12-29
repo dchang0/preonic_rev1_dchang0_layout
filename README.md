@@ -6,15 +6,21 @@ This is my custom QMK layout/keymap for the awesome OLKB Preonic Rev. 1 or Rev. 
 
 https://github.com/qmk/qmk_firmware
 
-Put the folder dchang0_rev1 with all its contents inside the qmk_firmware/keyboards/preonic/keymaps folder in your QMK source code folder tree, then build and flash it as normal with the command:
+Put the folder `dchang0_rev1` with all its contents inside the `qmk_firmware/keyboards/preonic/keymaps` folder in your QMK source code folder tree, then build and flash it as normal with the command:
 
-'''
+```
 make preonic/rev1:dchang0_rev1:dfu
-'''
+```
 
 Remember to push the reset button on the bottom of the Preonic for the flashing to start before the DFU utility times out.
 
-You can ALMOST use this layout for the Rev. 3, but the Rev. 3 has a need for more RGB LED backlight controller keys on the Adjust layer. 
+You can ALMOST use this layout for the Rev. 3, but the Rev. 3 has a need for more RGB LED backlight controller keys on the Adjust layer.
+
+For Rev. 3 the flashing command is slightly different. If you want to use this layout, it will be:
+
+```
+make preonic/rev3:dchang0_rev1:dfu-util
+```
 
 -----
 

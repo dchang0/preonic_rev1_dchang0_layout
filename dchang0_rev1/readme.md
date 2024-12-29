@@ -16,7 +16,7 @@
 # Also, having a 1U space key requires more precision than a single 2U spacebar.
 # GUI was swapped with Alt on the left to make overshooting the Backspace with the left thumb less annoying.
 #
-# c) CAPSLOCK has been added as Raise + Right Shift
+# Note that CAPSLOCK has been added as Raise + Right Shift
 #
 # This layout includes Qwerty, Dvorak, and Colemak equally well.
 # It also has some minor modifications to the Lower and Raise layers to support the changes to the bottom row,
